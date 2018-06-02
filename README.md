@@ -17,18 +17,24 @@ For detailed instructions on how to get started, check out this [guide](https://
 ##Instructions
 
 - You should select a character.
+
+
 ![alt text][image1]
-[image1]:
-(https://github.com/bermartinv/ArcadeGame/blob/master/images/characters.PNG "Characters")
+[image1]:https://github.com/bermartinv/ArcadeGame/blob/master/images/characters.PNG "Characters"
+
+
 - You have to get to the sea without being touched by a bug.
 - If you are touched by a bug, you will lost a life. You have 3 lives.
 - If you arrive to the sea, you will win 1200 points.
 - If you arrive to the sea, you will win 1200 points.
 - If you are touched by a dug, you will lost 200 points and you must go to start point.
 - The allowed keys are Up, Right, Down and Left.
+
+
 ![alt text][image2]
 
 [image2]:https://github.com/bermartinv/ArcadeGame/blob/master/images/screen.PNG "Screen Game"
+
 
 ## Contributing
 
