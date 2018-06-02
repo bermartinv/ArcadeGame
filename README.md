@@ -14,12 +14,13 @@ For detailed instructions on how to get started, check out this [guide](https://
 * [Acknowledgments](acknowledgments)
 
 
-##Instructions
+## Instructions
 
 - You should select a character.
 
 
 ![alt text][image1]
+
 [image1]:https://github.com/bermartinv/ArcadeGame/blob/master/images/characters.PNG "Characters"
 
 
