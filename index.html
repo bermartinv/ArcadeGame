@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-content animate">
+            <div class="container">
+                <h2>Choose your Character</h2>
+                <img class="char" src="images/char-boy.png" data-image="images/char-boy.png">
+                <img class="char" src="images/char-cat-girl.png" data-image="images/char-cat-girl.png">
+                <img class="char" src="images/char-horn-girl.png" data-image="images/char-horn-girl.png">
+                <img class="char" src="images/char-pink-girl.png" data-image="images/char-pink-girl.png">
+                <img class="char" src="images/char-princess-girl.png" data-image="images/char-princess-girl.png">
+                <h2>Instructions</h2>
+                <ul>
+                    <li>You have to get to the sea without being touched by a bug.</li>
+                    <li>If you are touched by a bug, you will lost a life. You have 3 lives.</li>
+                    <li>If you arrive to the sea, you will win 1200 points.</li>
+                    <li>If you are touched by a dug, you will lost 200 points and you must go to start point.</li>
+                    <li>The allowed keys are <span class="glyphicon glyphicon-arrow-up"></span> Up <span class="glyphicon glyphicon-arrow-right"></span> Right <span class="glyphicon glyphicon-arrow-down"></span> Down<span class="glyphicon glyphicon-arrow-left"></span> Left .</li>
+                    <li>Good luck!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <span class="cross">x</span>  
+        <div class="modal-content animate">
+            <div class="container">
+                <p class="congrat">Congratulations! You won!</p>
+                <p class="showResults congrat"></p>
+                <p class="congrat">Woooooo!</p>
+                <div class="clearfix">
+                    <button type="button" class="playAgain">Play Again!</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
