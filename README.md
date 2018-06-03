@@ -5,26 +5,37 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
-*[Instructions](#instructions)
-*[Contrubuting](#contrubuting)
-*[Author](#author)
-*[Communication](#communication)
-*[Dependencies](#dependencies)
-*[License](#license)
-*[Acknowledgments](acknowledgments)
+* [Instructions](#instructions)
+* [Contrubuting](#contrubuting)
+* [Author](#author)
+* [Communication](#communication)
+* [Dependencies](#dependencies)
+* [License](#license)
+* [Acknowledgments](acknowledgments)
 
 
-##Instructions
+## Instructions
 
 - You should select a character.
-(/images/characters.PNG "Characters")
+
+
+![alt text][image1]
+
+[image1]:https://github.com/bermartinv/ArcadeGame/blob/master/images/characters.PNG "Characters"
+
+
 - You have to get to the sea without being touched by a bug.
 - If you are touched by a bug, you will lost a life. You have 3 lives.
 - If you arrive to the sea, you will win 1200 points.
 - If you arrive to the sea, you will win 1200 points.
 - If you are touched by a dug, you will lost 200 points and you must go to start point.
 - The allowed keys are Up, Right, Down and Left.
-(/images/screen.PNG "Screen Game")
+
+
+![alt text][image2]
+
+[image2]:https://github.com/bermartinv/ArcadeGame/blob/master/images/screen.PNG "Screen Game"
+
 
 ## Contributing
 
@@ -36,15 +47,15 @@ Bernardo Martín Viudez
 
 ## Communication
 
-[Facebook](https://www.facebook.com/bermartinv)
-[Twitter](https://twitter.com/bermartinv2)
-[codepen](https://codepen.io/bermartinv/)
-[slides](https://slides.com/bermartinv)
+- [Facebook](https://www.facebook.com/bermartinv)
+- [Twitter](https://twitter.com/bermartinv2)
+- [codepen](https://codepen.io/bermartinv/)
+- [slides](https://slides.com/bermartinv)
 
 ## Dependencies
 
-[Google Fonts](https://fonts.google.com/)
-[Bootstrap](https://getbootstrap.com/) 
+- [Google Fonts](https://fonts.google.com/)
+- [Bootstrap](https://getbootstrap.com/) 
 
 ## License
 

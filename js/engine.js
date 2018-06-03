@@ -63,7 +63,7 @@ var Engine = (function(global) {
      * game loop.
      */
     function init() {
-        reset();
+        player.reset();
         lastTime = Date.now();
         main();
     }
@@ -180,15 +180,6 @@ var Engine = (function(global) {
         player.render();
     }
 
-    /* This function does nothing but it could have been a good place to
-     * handle game reset states - maybe a new game menu or a game over screen
-     * those sorts of things. It's only called once by the init() method.
-     */
-    function reset() {
-        player.lives = 3;
-        player.moves = 0;
-        player.score = 0;
-    }
 
     function renew(){
         // descuenta una vida
@@ -219,13 +210,13 @@ var Engine = (function(global) {
         /* Event cross */
         cross.addEventListener('click',function(){
             modal[1].style.display = 'none';
-            reset();
+            player.reset();
         })
 
         /* Event again */
         again.addEventListener('click',function(){
             modal[1].style.display = 'none';
-            reset();
+            player.reset();
             modal[0].style.display = 'block';
         })
 

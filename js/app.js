@@ -91,7 +91,7 @@ class Player {
         ctx.fillText("LIVES:", 300, 580);
         ctx.font = "50px Impact";
         ctx.fillText("Frogger", 180, 50);
-        if (player.lives === 3){
+        if (this.lives === 3){
             ctx.drawImage(Resources.get(this.spriteLive), 350, 540, 40, 50);
             ctx.drawImage(Resources.get(this.spriteLive), 400, 540, 40, 50);
             ctx.drawImage(Resources.get(this.spriteLive), 450, 540, 40, 50);
@@ -101,8 +101,14 @@ class Player {
         }else if (player.lives === 1){
             ctx.drawImage(Resources.get(this.spriteLive), 350, 540, 40, 50);
         }
-
     }
+
+        reset() {
+            player.lives = 3;
+            player.moves = 0;
+            player.score = 0;
+        }
+
 
     /* Move player with cursor */
     handleInput(keyMove){
@@ -131,7 +137,11 @@ class Player {
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-let allEnemies = [new Enemy(), new Enemy(), new Enemy(), new Enemy(), new Enemy(), new Enemy(), new Enemy()];
+//let allEnemies = [new Enemy(), new Enemy(), new Enemy(), new Enemy(), new Enemy(), new Enemy(), new Enemy()];
+let allEnemies =[];
+for (let i = 0; i < 7; i++) {
+    allEnemies.push(new Enemy());
+}
 let player = new Player();
 
 // This listens for key presses and sends the keys to your
@@ -151,7 +161,7 @@ document.addEventListener('keyup', function(e) {
     let modal = document.querySelectorAll(".modal");
     let char = document.querySelectorAll(".char");
     /* Show modal   */
-    modal[0].style.display = 'block';
+    modal[0].classList.add('block');
    player.sprite = 'images/char-pink-girl.png';
 
    for (let i = 0; i < char.length; i++){

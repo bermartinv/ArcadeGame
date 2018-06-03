@@ -10,7 +10,6 @@ body {
     font-family: 'Slabo 27px', serif;
 }
 
-
 /* *******************************************************
 *                        STYLE MODAL                     *
 **********************************************************/
@@ -64,9 +63,9 @@ body {
 }
 
 .playAgain{
-    position: absolute;
+    /*position: absolute;
     bottom: -100px;
-    left: 45%;
+    left: 45%;*/
     font-size: 1.5em;
     height: 2em;
 }
@@ -98,7 +97,20 @@ body {
     display: inline-block;
 }
 
+/* Hide modal */
+.hide{
+    display: none;
+}
+
+/* Block modal */
+.block{
+    display: block;
+}
+
 /* style char images cursor hover */
 .char:hover{
     cursor: pointer;
 }
+
+
+
